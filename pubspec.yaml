@@ -1,8 +1,8 @@
 name: hello
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: fengxing <296016140@qq.com>
+homepage: http://www.baidu.com
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
