@@ -14,4 +14,9 @@ class Hello {
     final String version = await _channel.invokeMethod('showToast', msg);
     return version;
   }
+
+  static Future<String> toast2(String msg) async {
+    final String version = await _channel.invokeMethod('showToast2', msg);
+    return version;
+  }
 }
